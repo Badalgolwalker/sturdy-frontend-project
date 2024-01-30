@@ -1,0 +1,630 @@
+*{
+margin: 0;
+ padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 100vh;
+width: 100vw;
+background-color: #fff;
+
+}
+#main{
+    
+    position: relative;
+   /* background-color: red; */
+  
+
+
+}
+ 
+#pag1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.covr{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    position: absolute;
+    top: 0;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0px 40px;
+}
+.nav-part2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 25%;
+  /* background-color: #fff; */
+
+}
+#nav h5{
+    background-color: #444444ac;
+    padding: 9px 12px;
+    border-radius: 50px;
+}
+.covr h1{
+    font-size: 360px;
+    color: #fff;
+margin-top: -50px;
+}
+.covr h1 span{
+    font-size: 30px;
+    position: absolute;
+    top:17%;
+    right: 0.5%;
+}
+.txt{
+    height: 100px;
+    width: 56%;
+    /* background-color: white; */
+    position: absolute;
+    left: 20%;
+    text-align: center;
+    font-size: 36px;
+    top: 70%;
+    word-spacing: -3px;
+    color: #fff;
+}
+.h5{
+    height: 90px;
+    width: 55%;
+    /* background-color: white; */
+  position: absolute;
+  top: 86%;
+left: 25%;
+  
+   
+}
+.h5 h5{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 5px;
+    text-align: justify;
+    text-align: start;
+    line-height: 30px;
+   background-color: #00000052;
+ margin-top: 8px;
+ padding: 3px 12px;
+ border-radius: 50px;
+ color: #fff;
+ font-weight: 200;
+ border: 0.5px solid #6e6e6e;
+}
+.h5 span{
+    margin-left: 70px;  
+}
+#pag2{
+    height: 100vh;
+    width: 100vw;
+display: flex;
+align-items: center;
+background-color: #fff;
+
+}
+.div1{
+    height: 100%;
+    width: 49%;
+    
+}
+.div2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+   
+}
+.sq{
+   height: 33px;
+   width: 250px;
+    background-color: #000;
+    /* margin-top: -0px; */
+}
+ .div2 h1{
+    margin-left:10px;
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 45px;
+
+} 
+ #pag3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+} 
+#pag3 h6{
+text-align: center;
+font-size: 13px;
+}
+#pag3 i{
+    font-size: 20px;
+    
+}
+#pag3 .imvi{
+width: 100%;
+display: flex;
+
+}
+#pag3 .im{
+    
+    width: 50%;
+    margin-top: 6px;
+    border-right: 1px solid #000;
+  
+   
+    
+}
+.im img{
+   height: 500px;
+    width: 100%;
+}
+
+ #pag3 .im .nv{
+display: flex;
+
+justify-content: space-between;
+height: 100px;
+width: 100%;
+padding: 0 30px;
+ }
+ #pag3 .im .nv pre span{
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+ }
+ #pag3 .im .nv .pt2{
+    margin-right: 200px;
+    font-size: 25px; 
+    margin-top: -10px;
+ }
+ #pag3 .im .nv .pt3{
+    font-size: 25px; 
+    margin-top: -10px;
+
+ }
+ #pag3 .vi{
+    height: 500px;
+    width: 50%;
+    margin-top: 6px;
+}
+#pag3 .vi .nv{
+    display: flex;
+    
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    padding: 0 30px;
+     }
+     #pag3 .vi .nv pre span{
+        color: #000;
+        font-weight: 600;
+        font-size: 15px;
+     }
+     #pag3 .vi .nv .pt2{
+        margin-right: 200px;
+        font-size: 25px; 
+        margin-top: -10px;
+     }
+     #pag3 .vi .nv .pt3{
+        font-size: 25px; 
+        margin-top: -10px;
+    
+     }
+
+  #pag7{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}  
+     #pag7 .imvi1{
+       
+        width: 100%;
+        display: flex;
+        margin-top: 100px;
+        
+        }
+        #pag7 .vi1{
+    
+            width: 25%;
+            margin-top: 6px;
+          
+           
+            
+        }
+        #pag7 .vi1 video{
+            height: 360px;
+            object-fit: cover;
+            width: 100%;
+        }
+    #pag7 .vi1 .nv{
+        height: 100px;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+       justify-content: space-between;
+       padding: 0 10px;
+
+    }
+    #pag7 .vi1 .nv pre span{
+        color: #000;
+        font-weight: 700;
+        font-size: 15px;
+     }
+     #pag7 .vi1 .nv .pt2{
+        margin-right: 1px;
+        font-size: 23px; 
+        margin-top: -10px;
+     }
+     #pag7 .vi1 .nv .pt3{
+        font-size: 25px; 
+        margin-top: -10px;
+        
+    
+     } 
+
+        #pag7 .im1{
+    
+            width: 25%;
+            margin-top: 6px;
+          
+           
+            
+        }
+        .im1 img{
+            height: 360px;
+             width: 100%;
+         }
+         #pag7 .im1 .nv{
+            height: 100px;
+            width: 100%;
+            /* background-color: red; */
+            display: flex;
+           justify-content: space-between;
+           padding: 0 10px;
+    
+        }
+        #pag7 .im1 .nv pre span{
+            color: #000;
+            font-weight: 700;
+            font-size: 15px;
+         }
+         #pag7 .im1 .nv .pt2{
+            margin-right: 1px;
+            font-size: 23px; 
+            margin-top: -10px;
+         }
+         #pag7 .im1 .nv .pt3{
+            font-size: 25px; 
+            margin-top: -10px;
+            
+        
+         } 
+        #pag7 .im2{
+    
+            width: 25%;
+            margin-top: 6px;
+          
+           
+            
+        }
+        .im2 img{
+            height: 360px;
+             width: 100%;
+         }
+         #pag7 .im2 .nv{
+            height: 100px;
+            width: 100%;
+            /* background-color: red; */
+            display: flex;
+           justify-content: space-between;
+           padding: 0 10px;
+    
+        }
+        #pag7 .im2 .nv pre span{
+            color: #000;
+            font-weight: 700;
+            font-size: 15px;
+         }
+         #pag7 .im2 .nv .pt2{
+            margin-right: 1px;
+            font-size: 23px; 
+            margin-top: -10px;
+         }
+         #pag7 .im2 .nv .pt3{
+            font-size: 25px; 
+            margin-top: -10px;
+            
+        
+         } 
+        #pag7 .im3{
+    
+            width: 25%;
+            margin-top: 6px;
+          
+           
+            
+        }
+        .im3 img{
+            height: 360px;
+             width: 100%;
+         }
+         #pag7 .im3 .nv{
+            height: 100px;
+            width: 100%;
+            /* background-color: red; */
+            display: flex;
+           justify-content: space-between;
+           padding: 0 10px;
+    
+        }
+        #pag7 .im3 .nv pre span{
+            color: #000;
+            font-weight: 700;
+            font-size: 15px;
+         }
+         #pag7 .im3 .nv .pt2{
+            margin-right: 1px;
+            font-size: 23px; 
+            margin-top: -10px;
+         }
+         #pag7 .im3 .nv .pt3{
+            font-size: 25px; 
+            margin-top: -10px;
+            
+        
+         } 
+         #pag8{
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+        
+        }  
+         #pag8 .imvi2{
+       
+            width: 100%;
+            display: flex;
+            margin-top: 100px;
+            
+            }
+         #pag8 .im4{
+    
+            width: 50%;
+            margin-top: 6px;
+            border-right: 1px solid #000;
+          
+           
+            
+        }
+        .im4 img{
+           height: 500px;
+            width: 100%;
+        }
+        
+         #pag8 .im4 .nv{
+        display: flex;
+        
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+        padding: 0 30px;
+         }
+         #pag8 .im4 .nv pre span{
+            color: #000;
+            font-weight: 600;
+            font-size: 15px;
+         }
+         #pag8 .im4 .nv .pt2{
+            margin-right: 200px;
+            font-size: 25px; 
+            margin-top: -10px;
+         }
+         #pag8 .im4 .nv .pt3{
+            font-size: 25px; 
+            margin-top: -10px;
+        
+         }
+         #pag8 .im5{
+    
+            width: 50%;
+            margin-top: 6px;
+            border-right: 1px solid #000;
+          
+           
+            
+        }
+        .im5 img{
+           height: 500px;
+            width: 100%;
+        }
+        
+         #pag8 .im5 .nv{
+        display: flex;
+        
+        justify-content: space-between;
+        height: 100px;
+        width: 100%;
+        padding: 0 30px;
+         }
+         #pag8 .im5 .nv pre span{
+            color: #000;
+            font-weight: 600;
+            font-size: 15px;
+         }
+         #pag8 .im5 .nv .pt2{
+            margin-right: 200px;
+            font-size: 25px; 
+            margin-top: -10px;
+         }
+         #pag8 .im5 .nv .pt3{
+            font-size: 25px; 
+            margin-top: -10px;
+        
+         }
+         #pag3 .circle{
+            height: 60px;
+            width: 60px;
+            background-color: #2e2e2eb5;
+            border-radius: 50px;
+            position: absolute;
+            top: 40%;
+            left: 48%;
+            transition: all 0.1s;
+            padding: 15px 15px;
+            
+         }
+     #pag3 .circle i {
+        font-size: 27px;
+        color: #fff;
+     }
+     #pag8 h6{
+        text-align: center;
+        font-size: 13px;
+        margin-top: 30px;
+        }
+        #pag8 i{
+            font-size: 20px;
+            
+        }
+     #pag4{
+        height: 100vh;
+        width: 100vw;
+        /* background-color: red; */
+        position: relative;
+        perspective: 360px;
+        overflow: hidden;
+        /* border-top: 2px solid #000; */
+     }
+     #pag4 h1{
+font-size: 120px;
+text-align: center;
+transform-style: preserve-3d;
+margin-top: 5%;
+line-height: 10px;
+color: #777;
+/* transform: rotateX(45deg); */
+     }
+     #pag4 h1:hover{
+        color: #000;
+     }
+     #pag5{
+        height: 100vh;
+        width: 100vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    }
+    .div1{
+        height: 100%;
+        width: 49%;
+        
+    }
+    .div2{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: start;
+        padding-right: 50px;
+        margin-top: 20%;position: relative;
+       
+    }
+    .s{
+        height: 30px;
+        width: 80px;
+        background-color: #000;
+        margin-top: 8px;
+    }
+   
+    
+    .div2 h1{
+        margin-left:10px;
+        font-size: 32px;
+        font-weight: 200;
+        line-height: 45px;
+    
+    }
+    .li{
+        height: 50px;
+        width: 2px;
+        background-color: #000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        
+        
+    }
+    h4{
+        position: absolute;
+        left: 51%;
+        top: 52%;
+    }
+    .t1{
+        height: 250px;
+        width: 16%;
+        /* background-color: red; */
+        position: absolute;
+        top: 60%;
+        left: 50%;
+
+    }
+    .t2{
+        height: 250px;
+        width: 30%;
+        /* background-color: red; */
+        position: absolute;
+        top: 60%;
+        left: 70%;
+    text-align: justify;
+    overflow: hidden;
+}
+#pag6{
+    height: 60vh;
+    width: 100vw;
+    position: relative;
+
+}
+#pag6 h1{
+    font-size: 360px;
+    color: #000;
+    position: absolute;
+    top: 10%;
+}
+#pag6 h1 span{
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    font-weight: 900;
+    right: 1%;
+    top: 30%;
+    
+}  
+/* #st{
+    color: #000;
+    font-size: 360px;
+    
+margin-top: -50px;
+} */
+
+
+
+
+
+ */
